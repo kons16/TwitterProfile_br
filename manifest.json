@@ -1,0 +1,9 @@
+{
+  "name": "twitterprofile_br",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": [ "https://twitter.com/*" ],
+    "js": [ "profile_br.js" ]
+  }]
+}
